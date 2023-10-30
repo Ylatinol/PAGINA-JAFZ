@@ -195,6 +195,11 @@
 
 
 
+   
+
+
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -210,7 +215,7 @@
 
     <section id="biografia" style="padding: 0 10px;">
         <!-- Contenido de la sección Biografía -->
-   </section>
+    </section>
     
     <div class="container-fluid" style="background-color: #b8daff;">
         <div class="row">
@@ -283,6 +288,62 @@
     </div>
 </div>
 </section>
+
+<!-- Espacio mision y contacto  -->
+<div style="height: 20px;"></div>
+<!-- Sección de Contacto -->
+<section id="Contacto" class="container-fluid Contacto" style="background-color: #f3aabd1b;">
+    <!-- Cambiar el valor hexadecimal (#f8e6ff) por el color deseado -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="text-center">
+                <h2 class="text-primary">Contacto</h2>
+                <p>¡Contáctanos para más información!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Espacio -->
+    <div style="height: 20px;"></div>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form id="formularioContacto">
+                <div class="form-group">
+                    <label for="nombre" style="text-align: left; display: block;">Nombre</label>
+                    <textarea class="form-control" id="nombre" rows="2" style="text-align: left; direction: ltr;"
+                        placeholder="Nombre completo" oninput="habilitarBotonEnviar()"></textarea>
+                </div>
+
+                <!-- Espacio -->
+                <div style="height: 20px;"></div>
+
+                <div class="form-group" style="text-align: left;">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Correo electrónico"
+                        oninput="habilitarBotonEnviar()">
+                </div>
+
+                <!-- Espacio -->
+                <div style="height: 20px;"></div>
+
+                <div class="form-group">
+                    <label for="mensaje" style="text-align: left; display: block;">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4" style="text-align: left; direction: ltr;"
+                        placeholder="Ingresa un comentario" oninput="habilitarBotonEnviar()"></textarea>
+                </div>
+
+                <!-- Espacio -->
+                <div style="height: 20px;"></div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary" id="botonEnviar" disabled
+                        onclick="cambiarColorBoton()">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
 
 <!-- Espacio mision y contacto  -->
 <div style="height: 20px;"></div>
