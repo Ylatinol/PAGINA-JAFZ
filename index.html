@@ -24,7 +24,6 @@
 
 <body>
     <! --Encabezado-->
-  <! --Encabezado-->
    <header class="conatiner -fluid bg-primary
    d-flex justify-content-center">
     <p class="text-light mb-0 p-2
@@ -56,6 +55,27 @@
                     <a class="nav-link" href="#Contacto">Contacto</a>
                 </li>
             </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item ms-auto">
+                <a href="https://www.facebook.com/joseagusto.floreszuniga.5/" target="_blank" class="btn btn-primary mr-2"><i
+                        class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://t.me/Y_Latino1" target="_blank" class="btn btn-primary mr-2"><i
+                        class="fab fa-telegram-plane"></i> Telegram</a>
+                <a href="https://wa.me/83228063" target="_blank" class="btn btn-primary"><i class="fab fa-whatsapp"></i>
+                    WhatsApp</a>
+
+                    <a href="https://goo.gl/maps/igQ72DRAfGL5UBVe7" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-map-marker-alt" style="color: #ff0000;"></i> Estamos ubicados
+                    </a>
+
+                </li>
+            </ul>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 
 
@@ -82,28 +102,28 @@
     <!-- Elementos de carrusel -->
     <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
-            <img src="https:img/slide1.jpg" class="d-block w-100" alt="slide1">
+            <img src="./img/diapositiva1.jpg" class="d-block w-100" alt="slide1">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
                                 </div>
                             </div>
         <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slide2.jpg" class="d-block w-100" alt="slide2">
+            <img src="./img/diapositiva2.jpg" class="d-block w-100" alt="slide2">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
                             </div>
                                         </div>
         <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slide3.jpg" class="d-block w-100" alt="slide3">
+            <img src="./img/diapositiva3.jpg" class="d-block w-100" alt="slide3">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
                                     </div>
                                 </div>
         <div class="carousel-item" data-bs-interval="3000">
-            <img src="img/slide6.jpg" class="d-block w-100" alt="slide4">
+            <img src="./img/diapositiva4.jpg" class="d-block w-100" alt="slide4">
             <div class="carousel-caption d-none d-md-block">
                 <h5>Fourth slide label</h5>
                 <p>Some representative placeholder content for the fourth slide.</p>
@@ -181,6 +201,7 @@
     </div>
 </div>
 
+    
    
     
 
@@ -190,7 +211,10 @@
 
 
 
-   
+
+
+
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -212,7 +236,7 @@
         <div class="row">
             <div class="col-md-6 d-flex justify-content-center align-items-center" style="direction: ltr;">
                 <!-- Espacio para colocar la imagen centrada en el contenedor -->
-                <img src="./img/slide4.jpg" alt="Imagen de la historia" class="img-fluid">
+                <img src="./img/diapositiva3.jpg" alt="Imagen de la historia" class="img-fluid">
             </div>
             <div class="col-md-6 order-md-first" style="direction: ltr;">
                 <!-- Espacio para colocar el texto centrado -->
@@ -245,7 +269,7 @@
     <div class="row">
         <div class="col-md-6 d-flex justify-content-center align-items-center" style="direction: ltr;">
             <!-- Espacio para colocar la imagen centrada en el contenedor -->
-            <img src="./img/slide4.jpg" alt="Imagen de la historia" class="img-fluid">
+            <img src="./img/diapositiva4.jpg" alt="Imagen de la historia" class="img-fluid">
         </div>
 <div class="col-md-6 order-md-first" style="direction: ltr;">
             <!-- Espacio para colocar el texto centrado -->
@@ -279,62 +303,6 @@
     </div>
 </div>
 </section>
-
-<!-- Espacio mision y contacto  -->
-<div style="height: 20px;"></div>
-<!-- Sección de Contacto -->
-<section id="Contacto" class="container-fluid Contacto" style="background-color: #f3aabd1b;">
-    <!-- Cambiar el valor hexadecimal (#f8e6ff) por el color deseado -->
-    <div class="row">
-        <div class="col-md-12">
-            <div class="text-center">
-                <h2 class="text-primary">Contacto</h2>
-                <p>¡Contáctanos para más información!</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Espacio -->
-    <div style="height: 20px;"></div>
-    <div class="row justify-content-center">
-        <div class="col-md-6">
-            <form id="formularioContacto">
-                <div class="form-group">
-                    <label for="nombre" style="text-align: left; display: block;">Nombre</label>
-                    <textarea class="form-control" id="nombre" rows="2" style="text-align: left; direction: ltr;"
-                        placeholder="Nombre completo" oninput="habilitarBotonEnviar()"></textarea>
-                </div>
-
-                <!-- Espacio -->
-                <div style="height: 20px;"></div>
-
-                <div class="form-group" style="text-align: left;">
-                    <label for="email">Correo electrónico</label>
-                    <input type="email" class="form-control" id="email" placeholder="Correo electrónico"
-                        oninput="habilitarBotonEnviar()">
-                </div>
-
-                <!-- Espacio -->
-                <div style="height: 20px;"></div>
-
-                <div class="form-group">
-                    <label for="mensaje" style="text-align: left; display: block;">Mensaje</label>
-                    <textarea class="form-control" id="mensaje" rows="4" style="text-align: left; direction: ltr;"
-                        placeholder="Ingresa un comentario" oninput="habilitarBotonEnviar()"></textarea>
-                </div>
-
-                <!-- Espacio -->
-                <div style="height: 20px;"></div>
-
-                <div class="text-center">
-                    <button type="submit" class="btn btn-primary" id="botonEnviar" disabled
-                        onclick="cambiarColorBoton()">Enviar</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</section>
-
 
 <!-- Espacio mision y contacto  -->
 <div style="height: 20px;"></div>
@@ -448,40 +416,27 @@
 </div>
 </div>
 
+
 <section class="py-3">
     <div class="row justify-content-center mt-3">
         <div class="col-md-6 text-center">
             <h5 style="direction: ltr;">Síguenos en redes sociales:</h5>
 
-            <div class="social-links mt-3 flex-wrap d-flex justify-content-center align-items-center">
-                <a href="https://www.facebook.com/joseagusto.floreszuniga.5/" target="_blank" class="btn btn-primary btn-sm mr-2"><i
-                        class="fab fa-facebook-f"></i> Facebook</a>
-                <a href="https://t.me/Y_Latino1" target="_blank" class="btn btn-primary btn-sm mr-2"><i
-                        class="fab fa-telegram-plane"></i> Telegram</a>
-                <a href="https://wa.me/83228063" target="_blank" class="btn btn-primary btn-sm"><i
-                        class="fab fa-whatsapp"></i> WhatsApp</a>
+            <div class="social-links mt-3">
+                <a href="https://www.facebook.com/joseagusto.floreszuniga.5/" target="_blank" class="btn btn-primary btn-sm mr-2"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="https://t.me/Y_Latino1" target="_blank" class="btn btn-primary btn-sm mr-2"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                <a href="https://wa.me/83228063" target="_blank" class="btn btn-primary btn-sm"><i class="fab fa-whatsapp"></i> WhatsApp</a>
 
                     <a href="https://goo.gl/maps/igQ72DRAfGL5UBVe7" target="_blank" class="btn btn-primary btn-sm">
                         <i class="fas fa-map-marker-alt" style="color: #ff0000;"></i> Estamos ubicados
                     </a>
 
                 </a>
-
-                
-                    <style>
-                        .social-links .btn {
-                            font-size: 14px;
-                            border-radius: 2px;
-                            margin: 10px;
-                            min-width: 100px;
-                            border: 1px solid #ccc;
-                        }
-                    </style>
-                </div>
             </div>
         </div>
     </div>
 </section>
+
 <!-- Fin de la sección de Contacto -->
 <!-- Espacio -->
 <div style="height: 20px;"></div>
